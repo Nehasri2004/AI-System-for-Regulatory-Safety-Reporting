@@ -1,4 +1,4 @@
-'''import json
+import json
 import os
 from pathlib import Path
 
@@ -91,4 +91,4 @@ if __name__ == "__main__":
     print("\nFINAL PADER REPORT\n")
     print(report)
 
-    save_report(report)'''
+    save_report(report)
