@@ -1,0 +1,209 @@
+{
+    "analysis_results": {
+        "total_rows": 1068,
+        "total_cases": 1024,
+        "serious_cases": 1023,
+        "non_serious_cases": 1,
+        "serious_percentage": 99.9,
+        "non_serious_percentage": 0.1,
+        "sex_distribution": {
+            "female": 503,
+            "male": 493,
+            "Unknown": 28
+        },
+        "age_summary": {
+            "mean": 70.07,
+            "median": 73.0,
+            "minimum": 1.0,
+            "maximum": 104.0
+        },
+        "age_group_distribution": {
+            "76+": 380,
+            "61-75": 363,
+            "46-60": 134,
+            "Unknown": 84,
+            "31-45": 36,
+            "<18": 16,
+            "18-30": 11
+        },
+        "country_distribution": {
+            "eu": 333,
+            "united kingdom": 278,
+            "france": 186,
+            "canada": 55,
+            "italy": 52,
+            "germany": 36,
+            "spain": 25,
+            "poland": 19,
+            "portugal": 8,
+            "Unknown": 7,
+            "united states": 4,
+            "belgium": 4,
+            "IE": 3,
+            "HR": 2,
+            "UA": 2,
+            "sweden": 2,
+            "SA": 2,
+            "RO": 2,
+            "FI": 1,
+            "australia": 1,
+            "indonesia": 1,
+            "china": 1
+        },
+        "top_20_countries": {
+            "eu": 333,
+            "united kingdom": 278,
+            "france": 186,
+            "canada": 55,
+            "italy": 52,
+            "germany": 36,
+            "spain": 25,
+            "poland": 19,
+            "portugal": 8,
+            "Unknown": 7,
+            "united states": 4,
+            "belgium": 4,
+            "IE": 3,
+            "HR": 2,
+            "UA": 2,
+            "sweden": 2,
+            "SA": 2,
+            "RO": 2,
+            "FI": 1,
+            "australia": 1
+        },
+        "top_reactions": {
+            "Acute kidney injury": 80,
+            "Drug ineffective": 54,
+            "Hypotension": 46,
+            "Drug interaction": 43,
+            "Dyspnoea": 38,
+            "Bradycardia": 37,
+            "Dizziness": 36,
+            "Fatigue": 33,
+            "Off label use": 31,
+            "Fall": 30,
+            "Diarrhoea": 30,
+            "Condition aggravated": 27,
+            "Hypokalaemia": 27,
+            "Medication error": 25,
+            "Asthenia": 25,
+            "Hyponatraemia": 24,
+            "Toxicity to various agents": 23,
+            "Confusional state": 23,
+            "Arthralgia": 22,
+            "Anaemia": 20
+        },
+        "top_serious_reactions": {
+            "Acute kidney injury": 80,
+            "Drug ineffective": 53,
+            "Hypotension": 46,
+            "Drug interaction": 43,
+            "Dyspnoea": 38,
+            "Bradycardia": 37,
+            "Dizziness": 36,
+            "Fatigue": 33,
+            "Off label use": 31,
+            "Fall": 30,
+            "Diarrhoea": 30,
+            "Condition aggravated": 27,
+            "Hypokalaemia": 27,
+            "Medication error": 25,
+            "Asthenia": 25,
+            "Hyponatraemia": 24,
+            "Toxicity to various agents": 23,
+            "Confusional state": 23,
+            "Arthralgia": 22,
+            "Anaemia": 20
+        },
+        "outcomes": {
+            "recovered/resolved": 494,
+            "unknown": 330,
+            "recovering/resolving": 227,
+            "not recovered/not resolved/ongoing": 195,
+            "fatal": 68,
+            "recovered/resolved with sequelae": 21
+        },
+        "reporting_period": {
+            "start": "2024-12-27",
+            "end": "2025-12-26"
+        },
+        "monthly_trend": {
+            "2024-12": 21,
+            "2025-01": 75,
+            "2025-02": 94,
+            "2025-03": 83,
+            "2025-04": 78,
+            "2025-05": 80,
+            "2025-06": 84,
+            "2025-07": 109,
+            "2025-08": 64,
+            "2025-09": 76,
+            "2025-10": 102,
+            "2025-11": 75,
+            "2025-12": 83
+        },
+        "highest_reporting_month": {
+            "month": "2025-07",
+            "cases": 109
+        }
+    },
+    "pader_guidance": {
+        "What should be included in a PADER report?": [
+            {
+                "text": "PADER Starter Guide\nSimplified Guidance for the GenAR Engineering Challenge\nImportant\nThis is a simplified engineering exercise, not a complete regulatory PADER authoring guide.\nFor this exercise, assume you are preparing a PADER-style report for one marketed product using the supplied\nsafety dataset (see Appendix B \u2014 your specific dataset covers a one-year reporting period).\nThe real U.S. regulatory basis for PADERs is 21 CFR 314.80(c)(2).\nThe regulation requires, among other things, a narrative summary and analysis, analysis of 15-day Alert reports,\na history of safety-related actions, and an index/listing of relevant adverse drug experiences.\nYou do not need to reproduce every regulatory requirement.",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "report at the PT level, or explicitly note SOC-level analysis is unavailable.\nCountry appears twice ( occurcountry vs primarysource_reportercountry ) \u2014 usually the same,\noccasionally not. Pick one and note which.\nAges arrive two ways: a coarse patient_patientagegroup (mostly blank) and\npatient_patientonsetage \u2014 bucket from the numeric field yourself.\nNo \"history of actions\" data is supplied with this dataset. Per \u00a77: don't invent any \u2014 your report should\nexplicitly state that none were provided for this exercise.\nNo product label/CCDS is supplied, so expectedness (Appendix A) isn't answerable from this dataset\nalone. Treat it as out of scope for Version 0.\nThis guide is a simplified teaching aid for the GenAR AI Engineering Challenge, adapted from the public",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "This is the main analytical part of the report.\nThe objective is to provide an overall understanding of the safety information received during the reporting period.\nYour system should consider information such as:\nTotal number of cases\nSerious vs. non-serious cases\n15-day Alert cases, if present in the supplied dataset\nMajor reported reactions\nSerious reactions\nPatient characteristics\nOutcomes\nGeographic distribution\nChanges or notable patterns\nOther important observations supported by the data\nThe system should distinguish between:\nObserved data\n143 cases reported headache.\nDerived analysis\nHeadache was the most frequently reported reaction.\nInterpretation\nThe increase in headache reports may warrant further review.",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            }
+        ],
+        "How should the narrative summary be written?": [
+            {
+                "text": "Seriousness\nExpected / unexpected status if available\nReaction\nOutcome\nDate received\nDate submitted, if available\nRelevant case identifiers\nIf detailed narrative information is provided, the system may summarize it.\nDo not invent case narratives.\n6. Trends and Important Observations\nLook for meaningful observations in the reporting data.\nExamples:\nIncrease or decrease in case volume\nIncrease in a particular reaction\nConcentration in a particular population\nChanges by country\nChanges in seriousness\nChanges in outcomes\nOther unusual patterns\nHowever:\nA statistical or numerical pattern is not automatically a safety signal.\nThe system should present an observation and allow a qualified human reviewer to determine its significance.\nFor example:",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "You do not need to reproduce every regulatory requirement.\nYour goal is to build an AI system that can turn safety data into a structured, evidence-based report.\n1. Reporting Period\nThe report should clearly identify:\nProduct\nNDA / application identifier if supplied\nReporting period\nReport type\nData cut-off / reporting period\nExample:\nProduct: Example COVID-19 Vaccine Report Type: Quarterly PADER Reporting Period: January 1 \u2013 March\n31, 2026\n(The example above uses a quarterly period to illustrate the header format. Your actual reporting period is\nwhatever the supplied dataset covers \u2014 see Appendix B.)\n2. Narrative Summary and Analysis",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "7. History of Actions\nThe regulation requires a history of actions taken since the previous report because of adverse drug experiences,\nsuch as labeling changes or studies initiated.\nFor this exercise, this information may be provided separately as structured data or documents.\nExamples:\nLabeling change\nRegulatory communication\nSafety-related study initiated\nAdditional monitoring\nRisk-minimization action\nOther safety-related action\nIf no action information is provided:\nDo not invent actions.\nThe system should explicitly indicate that the supplied information contained no reported actions, if that is the\ndefined dataset condition.\n8. Case Index / Listing\nThe report should contain or link to a structured case listing.\nAt minimum, consider:\nCase ID\nReaction / adverse event\nSeriousness",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            }
+        ],
+        "How should adverse reactions be analyzed?": [
+            {
+                "text": "New cases during the reporting period\nSerious cases\nNon-serious cases\nPatient characteristics\nAge groups\nSex\nCountry / region\nCase characteristics\nReaction\nSeriousness\nOutcome\nReporter type, if available\nProduct / indication, if available\nThe exact analyses may depend on the fields provided in the dataset.\n4. Reaction / Adverse Event Analysis\nAnalyze the adverse reactions reported during the period.\nExamples:\nMost frequently reported reactions\nSerious reactions\nReactions by System Organ Class, if MedDRA information is available\nReactions by age group\nReactions by sex\nReactions over time\nOther meaningful patterns\nDo not infer information that is not present in the dataset.\n5. Serious Cases / 15-Day Alerts",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "This is the main analytical part of the report.\nThe objective is to provide an overall understanding of the safety information received during the reporting period.\nYour system should consider information such as:\nTotal number of cases\nSerious vs. non-serious cases\n15-day Alert cases, if present in the supplied dataset\nMajor reported reactions\nSerious reactions\nPatient characteristics\nOutcomes\nGeographic distribution\nChanges or notable patterns\nOther important observations supported by the data\nThe system should distinguish between:\nObserved data\n143 cases reported headache.\nDerived analysis\nHeadache was the most frequently reported reaction.\nInterpretation\nThe increase in headache reports may warrant further review.",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "warranted in patients with renal impairment, necessitating careful monitoring and \npotential dosage adjustments. Hepatic impairment may similarly influence \nbiotransformation and clearance of the drug. \nAdverse Reactions \nThe adverse reaction profile described in the current labeling includes common adverse \nreactions such as fatigue, dizziness, and bradycardia. Additional postmarketing adverse \nreactions include hypotension and bronchospasm, which are consistent with the \nestablished safety profile of the product. Adverse reactions are generally mild to moderate \nin severity and are typically dose-dependent. \nLaboratory Findings \nReported laboratory abnormalities include increases in liver enzymes and changes in blood",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER-FDA-Y0AHP_PADER_Full_sample_data_B-1_CLIENT_DEV_01_FDA_v1_20260810.pdf"
+            }
+        ],
+        "How should serious cases be summarized?": [
+            {
+                "text": "Seriousness\nExpected / unexpected status if available\nReaction\nOutcome\nDate received\nDate submitted, if available\nRelevant case identifiers\nIf detailed narrative information is provided, the system may summarize it.\nDo not invent case narratives.\n6. Trends and Important Observations\nLook for meaningful observations in the reporting data.\nExamples:\nIncrease or decrease in case volume\nIncrease in a particular reaction\nConcentration in a particular population\nChanges by country\nChanges in seriousness\nChanges in outcomes\nOther unusual patterns\nHowever:\nA statistical or numerical pattern is not automatically a safety signal.\nThe system should present an observation and allow a qualified human reviewer to determine its significance.\nFor example:",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            },
+            {
+                "text": "Summary of ICSRs Case Tabulation \nSummary of ICSRs Case Tabulation \nSummary of 15-Day Alert Reports \nThe following table summarizes Individual Case Safety Reports (ICSRs) submitted as 15-\nDay Alert Reports during the reporting interval from December 27, 2024, to December 26, \n2025. Cases are categorized according to seriousness and expectedness and are further \nclassified by reporting source, including Solicited (Study), Solicited (Other), and \nSpontaneous reports. These cases represent expedited reporting categories requiring \nsubmission within applicable regulatory reporting timelines. \nCategory \nSolicited \n(Study) \nSolicited \n(Other) \nSpontaneous \nTotal \nSerious, \nUnlabelled \u2014 \nNon-Fatal \n10 \n0 \n946 \n956 \nSerious, \nUnlabelled \u2014 \nFatal \n0 \n0 \n67 \n67",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER-FDA-Y0AHP_PADER_Full_sample_data_B-1_CLIENT_DEV_01_FDA_v1_20260810.pdf"
+            },
+            {
+                "text": "At minimum, consider:\nCase ID\nReaction / adverse event\nSeriousness\nReporting date\nCountry\nOutcome\nThe exact fields depend on the supplied dataset.\nThe important principle is:\nA reviewer should be able to trace aggregate information back to individual cases.\nOfficial References",
+                "source": "c:\\Users\\nehas\\Downloads\\Ai regular safety reorting\\reference files\\PADER_Starter_Guide.pdf"
+            }
+        ]
+    }
+}

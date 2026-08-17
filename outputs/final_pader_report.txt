@@ -1,0 +1,42 @@
+**PADER Safety Report**
+
+### 1. Executive Summary
+This PADER safety report summarizes the safety data for a marketed product over a one-year reporting period, from December 27, 2024, to December 26, 2025. The report includes an analysis of 1024 cases, with 1023 serious cases and 1 non-serious case.
+
+### 2. Case Summary
+A total of 1024 cases were reported during the one-year reporting period. The cases were distributed across various countries, with the top 5 countries being EU (333), United Kingdom (278), France (186), Canada (55), and Italy (52).
+
+### 3. Serious Case Summary
+There were 1023 serious cases reported, accounting for 99.9% of all cases. The serious cases included 68 fatal cases and 955 non-fatal cases. The most frequently reported serious reactions were Acute kidney injury (80), Drug ineffective (53), Hypotension (46), and Drug interaction (43).
+
+### 4. Demographic Summary
+The demographic characteristics of the patients who reported adverse events were:
+- Sex: Female (503), Male (493), Unknown (28)
+- Age: Mean (70.07), Median (73.0), Minimum (1.0), Maximum (104.0)
+- Age groups: 76+ (380), 61-75 (363), 46-60 (134), Unknown (84), 31-45 (36), <18 (16), 18-30 (11)
+
+### 5. Adverse Event Summary
+The top 5 most frequently reported adverse events were:
+- Acute kidney injury (80)
+- Drug ineffective (54)
+- Hypotension (46)
+- Drug interaction (43)
+- Dyspnoea (38)
+
+### 6. Outcome Summary
+The outcomes of the reported cases were:
+- Recovered/Resolved (494)
+- Unknown (330)
+- Recovering/Resolving (227)
+- Not recovered/Not resolved/Ongoing (195)
+- Fatal (68)
+- Recovered/Resolved with sequelae (21)
+
+### 7. Safety Findings
+The safety findings of this report indicate that the product is associated with a high number of serious adverse events, including acute kidney injury, drug ineffective, hypotension, and drug interaction. The report also highlights the importance of monitoring patient outcomes and reporting adverse events.
+
+### 8. PADER Guidance
+According to the PADER guidance, this report should include a narrative summary and analysis, a history of actions taken, and a case index/listing. However, since no action information was provided, this report explicitly states that no actions were reported.
+
+### 9. Conclusion
+In conclusion, this PADER safety report highlights the importance of monitoring adverse events and patient outcomes. The report identifies the most frequently reported adverse events and serious reactions, and provides a demographic summary of the patients who reported adverse events. The findings of this report will inform future safety monitoring and risk management strategies for the product.
